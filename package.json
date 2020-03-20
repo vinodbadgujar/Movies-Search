@@ -1,0 +1,17 @@
+{
+  "name": "movies_search",
+  "version": "1.0.0",
+  "description": "small application for the searching movies with movie name..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinod badgujar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "save": "^2.4.0"
+  }
+}

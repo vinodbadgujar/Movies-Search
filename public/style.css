@@ -1,0 +1,26 @@
+body{
+	background-color: #beff33;
+	margin: 0 auto;
+}
+
+hr{
+	color: "red";
+}
+
+h2{
+	text-align: center; 
+	
+}
+
+h1{
+	text-align: center;
+}
+
+form{
+	margin: 0 auto;
+	text-align: center;
+}
+
+p{
+	float: right;
+}

@@ -1,0 +1,19 @@
+<%- include('partials/header'); %>
+	<h1>Results Page</h1>
+	<br>
+	<%data["Search"].forEach(function(movie){%>
+		<div>
+			<hr>
+			<h2>TITLE   : <%=movie["Title"] %> </h2>
+			<h2>YEAR    :<%= movie['Year']%></h2>
+			<img  src="<%= movie['Poster']  %>">	
+		</div>
+			
+			
+	<%})%>
+
+	</div>
+	<div align="center">
+		<a href="/"><button>Search Again</button></a>
+	</div>
+<%- include('partials/footer'); %>
